@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react';
 
-const API_URL = 'http://localhost:5000/clubs';
+const API_URL = 'https://campus-connect-portal-4tpx.onrender.com/clubs';
 
 export default function Home({ onLogin, onRegister, onStudent }) {
   const [clubs, setClubs] = useState([]);
